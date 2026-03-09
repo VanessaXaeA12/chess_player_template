@@ -30,14 +30,19 @@ pip install -e .
 ```python
 from player import TransformerPlayer
 
+p = TransformerPlayer("MyBot")
+```
 
 ## Trained model
 
 The trained model can be downloaded from Hugging Face:
 https://huggingface.co/sunflower9898/trained_model
 
+```
 
-p = TransformerPlayer("MyBot")
+
+
+
 move = p.get_move("starting FEN")
 print(move)
 ```
