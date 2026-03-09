@@ -31,6 +31,8 @@ pip install -e .
 from player import TransformerPlayer
 
 p = TransformerPlayer("MyBot")
+move = p.get_move("starting FEN")
+print(move)
 ```
 
 ## Trained model
@@ -43,6 +45,4 @@ https://huggingface.co/sunflower9898/trained_model
 
 
 
-move = p.get_move("starting FEN")
-print(move)
-```
+
